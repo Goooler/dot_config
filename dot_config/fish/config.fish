@@ -11,4 +11,5 @@ function jdk
   java -version
 end
 
-starship init fish | source
+# starship init fish | source
+oh-my-posh init fish --config ~/.config/omp/fish.darcula.omp.json | source
