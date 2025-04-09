@@ -11,5 +11,4 @@ function jdk
   java -version
 end
 
-# I use oh-my-fish for my prompt.
-# starship init fish | source
+starship init fish | source
