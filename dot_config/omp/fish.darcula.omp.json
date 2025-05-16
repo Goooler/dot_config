@@ -5,26 +5,26 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ff5555",
+          "foreground": "#50fa7b",
           "style": "plain",
           "template": " {{ reason .Code }}",
           "type": "status"
         },
         {
-          "foreground": "#ff5555",
+          "foreground": "#ff79c6",
           "style": "plain",
           "template": " \uf0e7 ",
           "type": "root"
         },
         {
-          "foreground": "#50fa7b",
+          "foreground": "#f8f8f2",
           "style": "plain",
           "template": " {{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
-          "background": "#8be9fd",
-          "foreground": "#282a36",
+          "background": "#44475a",
+          "foreground": "#f8f8f2",
           "properties": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
@@ -36,13 +36,13 @@
         },
         {
           "background": "#bd93f9",
-          "foreground": "#f8f8f2",
+          "foreground": "#282a36",
           "style": "plain",
-          "template": "<#f8f8f2>\ue0b1</> {{ .HEAD }} ",
+          "template": "<#282a36>\ue0b1</> {{ .HEAD }} ",
           "type": "git"
         },
         {
-          "foreground": "#bd93f9",
+          "foreground": "#f8f8f2",
           "style": "plain",
           "template": "\ue0b0 ",
           "type": "text"
