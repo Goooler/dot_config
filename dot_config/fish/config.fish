@@ -12,4 +12,4 @@ function jdk
 end
 
 # starship init fish | source
-oh-my-posh init fish --config ~/.config/omp/fish.darcula.omp.json | source
+oh-my-posh init fish --config ~/.config/omp/fish.dracula.omp.json | source
