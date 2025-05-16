@@ -5,7 +5,7 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#50fa7b",
+          "foreground": "#ff5555",
           "style": "plain",
           "template": " {{ reason .Code }}",
           "type": "status"
@@ -23,8 +23,8 @@
           "type": "session"
         },
         {
-          "background": "#44475a",
-          "foreground": "#f8f8f2",
+          "background": "#bd93f9",
+          "foreground": "#282a36",
           "properties": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
@@ -42,7 +42,7 @@
           "type": "git"
         },
         {
-          "foreground": "#f8f8f2",
+          "foreground": "#bd93f9",
           "style": "plain",
           "template": "\ue0b0 ",
           "type": "text"
