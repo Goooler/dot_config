@@ -1,4 +1,4 @@
-set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+set -gx JAVA_HOME /Library/Java/JavaVirtualMachines/zulu-21.jdk/Contents/Home
 
 set -gx ANDROID_SDK $HOME/Library/Android/sdk
 set -gx ANDROID_SDK_ROOT $ANDROID_SDK
