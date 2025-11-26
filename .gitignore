@@ -4,5 +4,6 @@
 # Bypass the ignore rules for the following files and folders
 !.gitignore
 !fish/
+!gh/
 !ghostty/
 !omp/
