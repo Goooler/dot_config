@@ -1,7 +1,8 @@
-### IntelliJ IDEA ###
-.idea
+# Ignore all files and folders by default.
+/*
 
-### VS Code ###
-.vscode
-
-.DS_Store
+# Bypass the ignore rules for the following files and folders
+!.gitignore
+!fish/
+!ghostty/
+!omp/
