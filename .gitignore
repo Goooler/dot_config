@@ -1,7 +1,7 @@
 # Ignore all files and folders by default.
 /*
 
-# Bypass the ignore rules for the following files and folders
+# Bypass specific files and folders.
 !.gitignore
 !fish/
 !gh/
