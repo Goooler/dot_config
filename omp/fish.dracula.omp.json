@@ -2,54 +2,54 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
+      "type": "prompt",
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ff5555",
-          "style": "plain",
           "template": " {{ reason .Code }}",
-          "type": "status"
+          "foreground": "#ff5555",
+          "type": "status",
+          "style": "plain"
         },
         {
-          "foreground": "#ff79c6",
-          "style": "plain",
           "template": " \uf0e7 ",
-          "type": "root"
+          "foreground": "#ff79c6",
+          "type": "root",
+          "style": "plain"
         },
         {
-          "foreground": "#f8f8f2",
-          "style": "plain",
           "template": " {{ .UserName }}@{{ .HostName }} ",
-          "type": "session"
+          "foreground": "#f8f8f2",
+          "type": "session",
+          "style": "plain"
         },
         {
-          "background": "#bd93f9",
-          "foreground": "#282a36",
-          "properties": {
+          "options": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
             "style": "full"
           },
-          "style": "plain",
           "template": "<transparent>\ue0b0</> {{ .Path }} ",
-          "type": "path"
-        },
-        {
-          "background": "#bd93f9",
           "foreground": "#282a36",
-          "style": "plain",
-          "template": "<#282a36>\ue0b1</> {{ .HEAD }} ",
-          "type": "git"
+          "background": "#bd93f9",
+          "type": "path",
+          "style": "plain"
         },
         {
-          "foreground": "#bd93f9",
-          "style": "plain",
+          "template": "<#282a36>\ue0b1</> {{ .HEAD }} ",
+          "foreground": "#282a36",
+          "background": "#bd93f9",
+          "type": "git",
+          "style": "plain"
+        },
+        {
           "template": "\ue0b0 ",
-          "type": "text"
+          "foreground": "#bd93f9",
+          "type": "text",
+          "style": "plain"
         }
-      ],
-      "type": "prompt"
+      ]
     }
   ],
-  "version": 3
+  "version": 4
 }
