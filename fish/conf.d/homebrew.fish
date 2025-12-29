@@ -8,6 +8,10 @@ function brew-upgrade
   brew cleanup
 end
 
+function brew-cleanup
+  brew cleanup --prune=all
+end
+
 if test (uname -m) = "x86_64"
   eval "$(/usr/local/bin/brew shellenv)"
   export PATH="/usr/local/opt/curl/bin:$PATH" # Use homebrew curl before system
