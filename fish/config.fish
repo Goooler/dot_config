@@ -13,3 +13,6 @@ end
 
 # starship init fish | source
 oh-my-posh init fish --config ~/.config/omp/fish.dracula.omp.json | source
+
+# Added by Antigravity
+fish_add_path /Users/goooler/.antigravity/antigravity/bin
