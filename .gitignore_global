@@ -1,0 +1,17 @@
+.ccx
+.cxx
+.gradle
+.kotlin
+local.properties
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode
+
+### Mac OS ###
+.DS_Store

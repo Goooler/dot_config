@@ -1,0 +1,13 @@
+[user]
+	name = Goooler
+	email = wangzongler@gmail.com
+	signingkey = 020BDA623C651E0E
+[core]
+	excludesfile = ~/.config/.gitignore_global
+	autocrlf = input
+	editor = code --wait
+[color]
+	ui = auto
+[commit]
+	gpgsign = true
+	verbose = true
