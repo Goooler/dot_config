@@ -2,12 +2,35 @@
 	name = Goooler
 	email = wangzongler@gmail.com
 	signingkey = 020BDA623C651E0E
+
 [core]
 	excludesfile = ~/.config/git/ignore
 	autocrlf = input
 	editor = code --wait
+
 [color]
 	ui = auto
+
 [commit]
 	gpgsign = true
 	verbose = true
+
+[rebase]
+	updateRefs = true
+	autosquash = true
+
+[push]
+	default = current
+
+[pull]
+	rebase = true
+
+[merge]
+	renameLimit = 999999
+
+[pack]
+	useSparse = true
+
+[alias]
+	co = checkout
+	st = status
