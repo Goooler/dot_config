@@ -3,7 +3,7 @@
 	email = wangzongler@gmail.com
 	signingkey = 020BDA623C651E0E
 [core]
-	excludesfile = ~/.config/.gitignore_global
+	excludesfile = ~/.config/git/ignore
 	autocrlf = input
 	editor = code --wait
 [color]
