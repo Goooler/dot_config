@@ -1,17 +1,4 @@
-function brew-update
-  brew update -q
-  echo && brew outdated --greedy
-end
-
-function brew-upgrade
-  HOMEBREW_NO_INSTALL_CLEANUP=true brew upgrade --greedy
-  brew cleanup
-end
-
-function brew-cleanup
-  brew cleanup --prune=all
-end
-
+# Load brew path eagerly, should not be moved into functions dir.
 if test (uname -m) = "x86_64"
   eval "$(/usr/local/bin/brew shellenv)"
   export PATH="/usr/local/opt/curl/bin:$PATH" # Use homebrew curl before system
