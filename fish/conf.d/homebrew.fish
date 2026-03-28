@@ -8,5 +8,3 @@ else if test (uname -m) = "arm64"
   export PATH="/opt/homebrew/opt/curl/bin:$PATH" # Use homebrew curl before system
   export PATH="/opt/homebrew/opt/rsync/bin:$PATH" # Use homebrew rsync before system
 end
-
-export PATH="/opt/nanobrew/prefix/bin:$PATH"
