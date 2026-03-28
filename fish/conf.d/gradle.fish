@@ -2,3 +2,22 @@ alias ga="gw assemble"
 alias gb="gw build"
 alias gca="gw clean assemble"
 alias gcb="gw clean build"
+
+
+function gw --wraps=gradle
+  set -l GW "$(upfind gradlew)"
+  if [ -z "$GW" ]
+    echo "Gradle wrapper not found."
+    return 1
+  else if contains -- "-p" $argv
+    $GW --profile --parallel $argv
+  else
+    $GW -p $(dirname $GW) --profile --parallel $argv
+  end
+end
+
+function jdk
+  set -gx JAVA_HOME $(/usr/libexec/java_home -v $argv[1]);
+  java -version
+end
+
