@@ -1,1 +1,1 @@
-fish_add_path ~/.antigravity/antigravity/bin
+set -gx PATH "~/.local/bin" $PATH
