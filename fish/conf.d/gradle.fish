@@ -15,9 +15,3 @@ function gw --wraps=gradle
     $GW -p $(dirname $GW) --profile --parallel $argv
   end
 end
-
-function jdk
-  set -gx JAVA_HOME $(/usr/libexec/java_home -v $argv[1]);
-  java -version
-end
-
