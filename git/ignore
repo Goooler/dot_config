@@ -15,3 +15,6 @@ local.properties
 
 ### Mac OS ###
 .DS_Store
+
+# https://github.com/ZacSweers/kempt
+.kempt.toml
