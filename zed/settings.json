@@ -1,0 +1,44 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "disable_ai": true,
+  "cli_default_open_behavior": "new_window",
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "terminal": {
+    "env": {
+      "FIG_NEW_SESSION": "\"1\"",
+    },
+    "font_family": "JetBrains Mono",
+  },
+  "minimap": {
+    "show": "always",
+  },
+  "use_system_path_prompts": false,
+  "autosave": "on_focus_change",
+  "buffer_font_family": "JetBrains Mono",
+  "auto_indent_on_paste": true,
+  "use_on_type_format": true,
+  "show_edit_predictions": true,
+  "format_on_save": "on",
+  "tab_size": 2,
+  "base_keymap": "JetBrains",
+  "icon_theme": "Zed (Default)",
+  "ui_font_size": 16,
+  "buffer_font_size": 18.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+}
