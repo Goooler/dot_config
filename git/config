@@ -6,14 +6,12 @@
 [core]
 	excludesfile = ~/.config/git/ignore
 	autocrlf = input
-	editor = code --wait
 
 [color]
 	ui = auto
 
 [commit]
 	gpgsign = true
-	verbose = true
 
 [rebase]
 	updateRefs = true
