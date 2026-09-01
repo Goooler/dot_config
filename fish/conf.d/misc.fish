@@ -4,6 +4,7 @@ alias grep="grep --color=auto -n -I"
 alias ll="gls -vAhlF --color --group-directories-first"
 alias sha256="shasum -a 256"
 alias yp="yt-dlp --concurrent-fragments 16 --cookies-from-browser chrome"
+alias ytsub="yt-dlp --cookies-from-browser chrome --write-subs --write-auto-subs --sub-lang 'ai-zh,zh-Hans,zh-CN,zh' --skip-download"
 
 
 function upfind
