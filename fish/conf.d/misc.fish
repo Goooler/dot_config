@@ -1,6 +1,6 @@
 set -gx PATH $PATH $HOME/.local/bin
 set -gx PATH $PATH $HOME/go/bin
-set -gx PATH $PATH $HOME/depot_tools
+set -gx PATH $PATH $HOME/.local/share/depot_tools
 set -gx PATH $PATH /Applications/Ghostty.app/Contents/MacOS
 set -gx PATH $PATH "$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 
