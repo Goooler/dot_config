@@ -18,3 +18,6 @@ local.properties
 
 # https://github.com/ZacSweers/kempt
 .kempt.toml
+
+# https://direnv.net
+.envrc
